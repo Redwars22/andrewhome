@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AndrewNation - Página Inicial</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <link rel="stylesheet" href="ui.css">
+</head>
+
+<body>
+  <header>
+    <nav></nav>
+  </header>
+  <main>
+    <div class="title-area">
+      <img class="ficto-flag" src="https://raw.githubusercontent.com/Redwars22/andrewnation/main/assets/fictoflag.jpg"
+        width="250" alt="">
+      <h1 class="purple">@AndrewNation</h1>
+    </div>
+    <div style="max-width: 55vw">
+      <input class="input is-danger" id="search-box" type="text" placeholder="Digite aqui o que deseja pesquisar" />
+      <div class="buttons-container">
+        <button class="button is-danger is-rounded" onclick="search('google')">Google</button>
+        <button class="button is-danger is-rounded" onclick="search('youtube')">YouTube</button>
+        <button class="button is-danger is-rounded" onclick="search('wikipedia')">Wikipedia</button>
+        <button class="button is-danger is-rounded" onclick="search('wiktionary')">Wiktionary</button>
+        <button class="button is-danger is-rounded" onclick="search('stackoverflow')">StackOverflow</button>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="logic.js"></script>
+  <style>
+
+  </style>
+</body>
+
+</html>

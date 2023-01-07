@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+body {
+    font-family: Rocher;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./bg.jpeg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden !important;
+}
+
+@font-palette-values --Purple {
+    font-family: Rocher;
+    base-palette: 6;
+}
+
+.purple {
+    font-palette: --Purple;
+    font-size: 4rem;
+    margin-top: -7rem;
+    transform: rotate(-5deg);
+}
+
+.ficto-flag {
+    border-radius: 1rem;
+    filter: brightness(116%);
+}
+
+.title-area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    flex-direction: column;
+}
+
+.buttons-container {
+    display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap: 1rem;
+            margin: 1rem;
+}
